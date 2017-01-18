@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="ngBracket">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>ng-bracket</title>
+		<!-- inject:css -->
+		<!-- endinject -->
+	</head>
+	<body ng-controller="BracketController">
+		<fieldset>
+			<legend>New Bracket</legend>
+			Conference 1:
+			<input type="text" ng-model="playersToGenerate">
+			Conference 2:
+			<input type="text" ng-model="playersToGenerate2">
+			<select ng-model="tType">
+				<option value="SE">Single Elimination</option>
+				<option value="DE">Double Elimination</option>
+			</select>
+			<input type="checkbox" ng-model="playBronzeMatch"> 3rd Place Decider
+			<button ng-click="generateWithRandomPlayers();">Generate</button>
+		</fieldset>
+		<ng-bracket bracket-data="bracketData"></ng-bracket>
+		<!-- inject:vendor -->
+		<!-- endinject -->
+		<!-- inject:js -->
+		<!-- endinject -->
+	</body>
+</html>

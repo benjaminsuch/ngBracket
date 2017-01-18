@@ -1,0 +1,25 @@
+{
+  "name": "ng-bracket",
+  "description": "ng-bracket provides services and components to generate and render single and double elimination brackets.",
+  "main": "./dist",
+  "authors": [
+    "Benjamin Such"
+  ],
+  "license": "UNLICENSED",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.4.7"
+  },
+  "devDependencies": {
+    "angular": "1.4.7"
+  }
+}

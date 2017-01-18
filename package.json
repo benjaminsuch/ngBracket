@@ -1,17 +1,33 @@
 {
-  "name": "ngBracket",
-  "version": "0.0.1",
+  "name": "ng-bracket",
+  "version": "1.0.0",
+  "description": "ng-bracket provides services and components to generate and render single and double elimination brackets.",
+  "main": "./dist",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benjamin Such",
+  "license": "UNLICENSED",
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-clean": "^0.5.0",
-    "grunt-contrib-concat": "^0.4.0",
-    "grunt-contrib-jasmine": "^0.7.0",
-    "grunt-contrib-jshint": "^0.10.0",
-    "grunt-contrib-sass": "^0.8.1",
-    "grunt-contrib-uglify": "^0.4.0",
-    "karma": "^0.12.23",
-    "karma-jasmine": "^0.1.5",
-    "karma-ng-html2js-preprocessor": "^0.1.0",
-    "karma-phantomjs-launcher": "^0.1.4"
+    "del": "^2.2.2",
+    "gulp-angular-filesort": "^1.1.1",
+    "gulp-angular-templatecache": "^2.0.0",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-inject": "^4.2.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-less": "^3.3.0",
+    "gulp-messenger": "^0.25.3",
+    "gulp-ngdocs": "^0.3.0",
+    "gulp-open": "^2.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-server-livereload": "^1.9.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-watch": "^4.3.11",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "run-sequence": "^1.2.2"
   }
 }
